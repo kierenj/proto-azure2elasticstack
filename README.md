@@ -7,3 +7,7 @@ See: https://stackoverflow.com/questions/51983312/net-core-on-linux-lldb-sos-plu
 To use: edit Program.cs with Azure app service credentials.
 
 The app reads all available subscriptions, resource groups, resources and their statistics, and writes to the `logs` subfolder in JSON format.
+
+It's a prototype and fairly hacked together.  Once the basics work predicatble (on Linux), it'll be tidied..
+
+The logging bits are a modified version from Microsoft.Extensions.Logging.
